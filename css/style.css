@@ -367,10 +367,19 @@ li {
 
 #skill .skill-desc {
   flex-basis: calc(100% - 60px - 30px);
+  text-align: center;
+}
+
+
+#skill .skill-desc-title i{
+  margin-right: 12px;
 }
 
 #skill .skill-desc-title {
   margin-bottom: 3px;
+  font-size:26px;
+  padding: 24px;
+  font-weight: bold;
 }
 
 #skill .rate {
@@ -423,6 +432,12 @@ li {
   width: 100px;
 }
 
+ol.shikaku{
+
+  font-weight: bold;
+  font-size: 26px;
+}
+
 /*--------------------------------
  CONTACT
 ---------------------------------*/
@@ -440,6 +455,7 @@ li {
   display: flex;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 #contact .contact-list li a {
@@ -448,6 +464,7 @@ li {
 
 #contact .contact-list li img {
   width: 50px;
+  text-align: center;
 }
 
 #contact .contact-list-desc {
@@ -578,6 +595,7 @@ li {
   .card-caption-title {
     font-size: 10px;
   }
+  
 
   #works .card:nth-child(2n+1):nth-last-child(-n+2),
   #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
@@ -675,3 +693,4 @@ li {
     padding: 20px 0;
   }
 }
+
