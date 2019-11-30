@@ -432,7 +432,16 @@ li {
   width: 100px;
 }
 
-ol.shikaku{
+#skill .section-text {
+  margin-bottom: 3px;
+  font-size:20px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+
+
+#skill ol.shikaku{
 
   font-weight: bold;
   font-size: 26px;
