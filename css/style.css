@@ -149,6 +149,7 @@ By default, top navigation bar uses "fixed" position
   font-size: 25px;
 }
 
+
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
@@ -222,6 +223,12 @@ SECTION WRAPS
   color: white;
 }
 
+#skillswrap .col-lg-3.centered p,.col-lg-2.centered p{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
 #footwrap {
   background: #2f2f2f;
   padding-top: 50px;
@@ -244,10 +251,18 @@ SECTION WRAPS
   padding-right: 8px;
   color: #1abc9c;
 }
-.row h5{
-  font-size: 20px;
+
+
+
+
+.col-lg-2.col-lg-offset-1 h5{
+  font-size: 25px;
   font-weight: bold;
   color: green;
+}
+
+.col-lg-3.centered h5{
+  color: white;
 }
 
 
