@@ -44,11 +44,11 @@ jQuery(document).ready(function( $ ) {
 
   // Java Chart
   var doughnutData = [{
-    value: 50,
+    value: 20,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 80,
     color: "#ecf0f1"
   }
   ];

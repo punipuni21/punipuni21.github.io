@@ -201,7 +201,7 @@ SECTION WRAPS
 }
 
 #intro p {
-  font-size: 25px;
+  font-size: 30px;
   color: white;
 }
 
@@ -269,6 +269,9 @@ SECTION WRAPS
   color: white;
 }
 
+.col-lg-6 {
+  font-size: 25px;
+}
 
 /* Copyright Wrap */
 
@@ -300,7 +303,7 @@ SECTION WRAPS
 
 .desc t {
   color: #34495e;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .desc imp {
@@ -318,6 +321,10 @@ sm {
 }
 
 /* Contact Form */
+
+#contact{
+  text-align: center;
+}
 
 .contact-form label {
   color: #999;
